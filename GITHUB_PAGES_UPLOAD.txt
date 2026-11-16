@@ -1,0 +1,18 @@
+GITHUB PAGES UPLOAD - ZOMBOSS VIDEO BUILD v20261116B
+====================================================
+
+This ZIP is intentionally packaged without an outer folder.
+
+1. Extract this ZIP. You should immediately see index.html and the assets folder, not another PvZ folder.
+2. Use GitHub Desktop (recommended for this many files), open/clone the repository used by your GitHub Pages site, and select its Pages branch.
+3. Copy every extracted file and folder into the repository's Pages publishing folder (usually the repository root), replacing the old index.html and assets folder.
+4. In GitHub Desktop, commit all changed files and press Push origin.
+5. Wait for the Pages deployment to finish in the repository's Actions tab.
+6. Open the site with this one-time cache-buster: https://YOUR-SITE-ADDRESS/?v=20261116bossfight
+
+Do not upload the ZIP itself to the website. GitHub's browser uploader is also a poor fit for this build because it contains over 1,000 files; GitHub Desktop keeps the folders intact.
+
+The lower-left lobby badge must read:
+ZOMBOSS VIDEO BUILD v20261116B
+
+If it still shows v20261115projectiles, GitHub Pages is still serving the old branch/folder or the browser has the old page cached.

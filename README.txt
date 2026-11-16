@@ -134,3 +134,13 @@ Game-style animation playback rebuild (v20261115native)
 - The five source clips that contain only one actual frame (Coffee Bean twitch, Lily Pad idle, and three Potato Mine states) receive subtle procedural breathing/twitch motion; every multi-frame source clip continues to use its original supplied frames and timing.
 - Zomboss no longer depends on browser GIF playback. All 457 frames across idle, attack, stomp, spawn and death were converted into 26 timed frame sheets and are drawn by the main game renderer, behind the units and below the boss health interface.
 - Full validation loads every one of the 265 supplied character clips and all five complete boss sequences. It verifies that every multi-frame clip contains changing rendered frames, that none is wholly blank, and that all boss states visibly advance in the actual game canvas.
+
+Video-matched Zomboss battle (v20261116bossfight)
+--------------------------------------------------
+- Rebuilt the Boss Raid attack loop from the supplied Dr. Zomboss fight video: Zomboss alternates mouth attacks, zombie waves, a warned stomp, another mouth attack, another wave and an RV crush. The cycle becomes faster as his health falls.
+- Added transparent fireball, cracked fireball, iceball, cracked iceball and RV artwork extracted from the supplied Dr. Zomboss Attacks sheet. Fire and ice balls visibly leave his mouth, travel down a chosen lane and destroy plants they reach.
+- Ice-shroom counters an incoming fireball. Jalapeno counters an incoming iceball when planted in the same lane. A successful counter freezes and exposes Zomboss and deals bonus damage.
+- Zomboss is armored while upright and takes only chip damage. His attack window, freeze window and counter window make him vulnerable to full damage, matching the protected/lowered-head rhythm of the original fight.
+- Stomp and RV attacks display a target warning before crushing the selected part of the lawn. Zombie summoning waves grow with the boss's rage phase.
+- Boss status is always shown in the top health interface as ARMORED, VULNERABLE or FROZEN. The fight keeps its no-time-limit multiplayer lobby, host-only Start Match button and post-start plant selection.
+- Automated checks cover all six attack-cycle steps, armor/vulnerability damage, fire/ice counters, lane destruction, RV/stomp impacts, attack-asset transparency and dimensions, all 265 imported character clips and every Zomboss animation state.
