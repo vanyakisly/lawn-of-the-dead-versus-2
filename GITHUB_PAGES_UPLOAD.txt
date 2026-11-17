@@ -1,5 +1,5 @@
-GITHUB PAGES UPLOAD - AUTHENTIC BOSS + PLANTS v20261116C
-========================================================
+GITHUB PAGES UPLOAD - LAWN PARTY MODES v20261117
+=================================================
 
 This ZIP is intentionally packaged without an outer folder.
 
@@ -8,11 +8,11 @@ This ZIP is intentionally packaged without an outer folder.
 3. Copy every extracted file and folder into the repository's Pages publishing folder (usually the repository root), replacing the old index.html and assets folder.
 4. In GitHub Desktop, commit all changed files and press Push origin.
 5. Wait for the Pages deployment to finish in the repository's Actions tab.
-6. Open the site with this one-time cache-buster: https://YOUR-SITE-ADDRESS/?v=20261116authentic
+6. Open the site with this one-time cache-buster: https://YOUR-SITE-ADDRESS/?v=20261117lawnmodes
 
 Do not upload the ZIP itself to the website. GitHub's browser uploader is also a poor fit for this build because it contains over 1,000 files; GitHub Desktop keeps the folders intact.
 
 The lower-left lobby badge must read:
-AUTHENTIC BOSS + PLANTS v20261116C
+LAWN PARTY MODES v20261117
 
-If it still shows v20261115projectiles, GitHub Pages is still serving the old branch/folder or the browser has the old page cached.
+If it shows an older badge, GitHub Pages is still serving the old branch/folder or the browser has the old page cached.
