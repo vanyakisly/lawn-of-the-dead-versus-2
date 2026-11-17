@@ -1,4 +1,14 @@
-PvZ Versus - LAWN PARTY MODES v20261117I
+PvZ Versus - LAWN PARTY MODES v20261117K
+
+NEW IN K
+- A basic regular Zombie that continuously eats the same Wall-nut or Tall-nut for 20 seconds now dies from overeating and plays the supplied 149-frame transparent "zombie eaten too much" GIF once for 9.48 seconds.
+- The 20-second overeating timer is tracked separately for each regular Zombie and resets if it stops chewing, is stunned or hypnotized, fights another zombie, changes targets, or starts eating a different plant. Other zombie types are unaffected.
+
+NEW IN J
+- Yeti Zombie now moves at 0.72 lawn units per second, over twice its previous 0.34 speed. Its retreat uses the same faster speed.
+- Zomboni is fully immune to freezing and slowing from Snow Pea, Winter Melon, and Ice-shroom, while still taking their damage.
+- Screen Door Zombie now uses the regular Zombie body-and-head death animation instead of holding its idle frame.
+- Cabbage-pult, Kernel-pult, Melon-pult, Winter Melon, and Cob Cannon throwing animations play 2.4x faster. Their damage and firing cooldowns are unchanged.
 
 NEW IN I
 - Flag Zombie has been removed from zombie selection, random waves, scripted waves, and Sandbox.
