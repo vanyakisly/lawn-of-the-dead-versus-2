@@ -1,4 +1,19 @@
-PvZ Versus - LAWN PARTY MODES v20261117K
+The Lawn of the Dead VERSUS - v20261118N
+
+VERSION N REBRAND
+- Renamed the game to The Lawn of the Dead VERSUS in the title screen, browser tab, and installable app metadata.
+- Added a new original leaf-and-undead-hand app icon designed to match the dark emerald glass interface.
+- Added refreshed 192px and 512px icons for browser, mobile home-screen, and installed-app use.
+
+VERSION M UI REFRESH
+- Rebuilt the menus, settings, seed picker, and in-game controls with a clean glass-and-garden visual style.
+- Added smooth panel entrances, button hover/press feedback, animated highlights, and clearer focus states.
+- Kept every PvZ plant, zombie, projectile, lawn sprite, and gameplay rule unchanged.
+- Added reduced-motion support for players who disable interface animations in their device settings.
+
+FIXED IN L
+- The overeating death now uses five transparent sprite sheets containing all 149 supplied frames. Frame selection is driven by the game timer, so the animation advances correctly instead of sticking on frame one.
+- The animation is foot-anchored and scaled to 47% of its source size. Its standing character is about 135 pixels tall, matching the regular Zombie instead of growing to about 154 pixels.
 
 NEW IN K
 - A basic regular Zombie that continuously eats the same Wall-nut or Tall-nut for 20 seconds now dies from overeating and plays the supplied 149-frame transparent "zombie eaten too much" GIF once for 9.48 seconds.

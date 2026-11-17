@@ -1,11 +1,11 @@
 {
- "name": "PvZ Versus",
- "short_name": "PvZ Versus",
+ "name": "The Lawn of the Dead VERSUS",
+ "short_name": "Lawn Dead VS",
  "start_url": "./index.html",
  "display": "fullscreen",
  "orientation": "landscape",
- "background_color": "#12200f",
- "theme_color": "#12200f",
+ "background_color": "#07150f",
+ "theme_color": "#07150f",
  "icons": [
   {
    "src": "assets/icon-192.png",
@@ -16,7 +16,7 @@
    "src": "assets/icon-512.png",
    "sizes": "512x512",
    "type": "image/png",
-   "purpose": "any"
+   "purpose": "any maskable"
   }
  ]
 }
