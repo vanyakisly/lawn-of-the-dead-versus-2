@@ -144,3 +144,16 @@ Video-matched Zomboss battle (v20261116bossfight)
 - Stomp and RV attacks display a target warning before crushing the selected part of the lawn. Zombie summoning waves grow with the boss's rage phase.
 - Boss status is always shown in the top health interface as ARMORED, VULNERABLE or FROZEN. The fight keeps its no-time-limit multiplayer lobby, host-only Start Match button and post-start plant selection.
 - Automated checks cover all six attack-cycle steps, armor/vulnerability damage, fire/ice counters, lane destruction, RV/stomp impacts, attack-asset transparency and dimensions, all 265 imported character clips and every Zomboss animation state.
+
+Authentic boss and plant mechanics (v20261116authentic)
+-------------------------------------------------------
+- Boss Raid now uses a purple tiled roof with flower pots and the five plants from the original Zomboss battle: Cabbage-pult, Kernel-pult, Ice-shroom, Jalapeno and Melon-pult. Raid cards cost no sun but retain recharge timing.
+- Zomboss is completely protected while his head is raised. He becomes vulnerable while lowering his head for a mouth attack. Fireballs move slowly down a full row and are countered by Ice-shroom; iceballs require a Jalapeno in the same row.
+- The boss cycle includes escalating roof-compatible zombie waves, fireball and iceball attacks, a warned 2-column by 4-row stomp, and a warned 2-column by 3-row RV impact. His attack rate increases as health falls. The attack warning, counter hint and health status remain above the action.
+- Mushrooms sleep on the daytime lawn and Coffee Bean now wakes the mushroom on its tile. Sun-shroom produces small sun before growing; Scaredy-shroom hides from nearby zombies; Fume-shroom pierces groups; Gloom-shroom attacks three rows.
+- Split Pea fires one pea forward and two backward. Starfruit fires in five directions. Cattail requires a Lily Pad, fires two homing spikes and prioritizes Balloon Zombies. Cactus spikes pop Balloon Zombies. Winter Melon's splash chills every affected zombie.
+- Pumpkin and Lily Pad are real same-tile layers. Zombies attack Pumpkin before the protected plant. The shovel removes the upper layer first.
+- Upgrade plants require their real bases: Repeater to Gatling Pea, Sunflower to Twin Sunflower, Fume-shroom to Gloom-shroom, Magnet-shroom to Gold Magnet, Spikeweed to Spikerock and Melon-pult to Winter Melon. Cob Cannon requires two adjacent Kernel-pults.
+- Cob Cannon no longer fires automatically: click a ready cannon, then click its impact tile. Doom-shroom leaves a timed crater. Marigold creates coins and Gold Magnet collects them. Magnet-shroom removes metal equipment. Lobbed shots bypass front shields, Jalapeno clears its complete lane and Spikerock/Spikeweed correctly damage Zomboni tires.
+- The in-game Help pages explain the corrected mushroom, upgrade and boss-counter rules.
+- The authentic gameplay test covers upgrades, layers, targeted Cob Cannon, Doom crater, mushrooms, multi-direction shots, coins, magnetism, balloon popping, elemental boss counters, full boss phases and exact crush footprints.
