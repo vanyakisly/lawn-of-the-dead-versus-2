@@ -1,4 +1,11 @@
-PvZ Versus - LAWN PARTY MODES v20261117
+PvZ Versus - LAWN PARTY MODES v20261117F
+
+FIXES IN F
+- Surprise Zombie now moves slowly, shows its disguise health bar before being revealed, and its 10 disguise health takes exactly five normal 2-damage pea hits to break. When the disguise breaks it becomes one random zombie from Imp through Yeti, excluding another Surprise Zombie.
+- Split Pea's two heads and Threepeater's three heads now share the body animation phase, keeping every head attached and synchronized during idle and shooting animations.
+- Peashooter Single has been removed from all seed-selection pools and can no longer be planted. Its unused artwork is excluded from this ZIP.
+- Regular Dancing Zombies never summon other zombies. Only a Disco Zombie summons two Dancing Zombies. After the final Dancing Zombie dies, the Disco waits exactly 3 seconds. It continues walking for 2.5 seconds, stops and performs its summon animation for the final 0.5 seconds, then creates exactly two replacements.
+- Gatling Pea fires four separate peas in a short staggered burst. All four projectiles move and deal damage independently.
 
 Boss Raid has been removed. This build uses the original day lawn and the existing playable plant/zombie animation system.
 
