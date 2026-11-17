@@ -1,6 +1,11 @@
-PvZ Versus - LAWN PARTY MODES v20261117F
+PvZ Versus - LAWN PARTY MODES v20261117H
 
-FIXES IN F
+FIXES IN H
+- Most added zombies now have the same 20 health as a regular Zombie. Screen Door and Ladder retain 40 health for their equipment, Zomboni retains 60, Surprise keeps its five-hit disguise, and Disco Zombie has exactly 30 health (1.5x a regular Zombie).
+- Yeti Zombie is invulnerable to projectiles, explosions, crushing, Chomper and Tangle Kelp. It eats one plant, turns around, retreats off the right side of the lawn, and disappears without a death animation.
+
+EARLIER FIXES
+- Rebalanced every added zombie's health. They previously required as many as 160 normal pea hits and appeared immortal. Added zombies now require 10–50 pea hits depending on their role: light units die quickly, while Catapult, Yeti and Zomboni remain progressively tougher.
 - Surprise Zombie now moves slowly, shows its disguise health bar before being revealed, and its 10 disguise health takes exactly five normal 2-damage pea hits to break. When the disguise breaks it becomes one random zombie from Imp through Yeti, excluding another Surprise Zombie.
 - Split Pea's two heads and Threepeater's three heads now share the body animation phase, keeping every head attached and synchronized during idle and shooting animations.
 - Peashooter Single has been removed from all seed-selection pools and can no longer be planted. Its unused artwork is excluded from this ZIP.
