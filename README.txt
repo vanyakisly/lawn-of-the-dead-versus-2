@@ -1,4 +1,9 @@
-PvZ Versus - LAWN PARTY MODES v20261117H
+PvZ Versus - LAWN PARTY MODES v20261117I
+
+NEW IN I
+- Flag Zombie has been removed from zombie selection, random waves, scripted waves, and Sandbox.
+- Surprise Zombie can no longer reveal as Flag Zombie or Bungee Zombie (the plant-stealing zombie).
+- Added Single Player Sandbox. Choose any available plant or zombie from the two dropdowns. Plants can be placed on the left half of the lawn; zombies spawn from the right side in the chosen row. Sandbox has no timer, no computer player, no resource costs, no recharge delays, and a Clear Lawn button.
 
 FIXES IN H
 - Most added zombies now have the same 20 health as a regular Zombie. Screen Door and Ladder retain 40 health for their equipment, Zomboni retains 60, Surprise keeps its five-hit disguise, and Disco Zombie has exactly 30 health (1.5x a regular Zombie).
