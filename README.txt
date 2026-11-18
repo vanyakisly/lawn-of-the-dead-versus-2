@@ -1,4 +1,10 @@
-The Lawn of the Dead VERSUS - v20261118Q
+The Lawn of the Dead VERSUS - v20261118R
+
+VERSION R COUNTER AND PLANTING FIX
+- Fixed the sun and brain HUD counter, which retained the correct game value internally but stopped writing it to the screen in Version Q.
+- The counter now follows the correct resource pool for the host, guest, and both teams in mirrored modes, including shared group-mode resources.
+- Added a synchronized 0.62-second planting animation to every plant: it rises from a soil ring, stretches slightly, and settles at its normal size.
+- Planting remains immediately functional and keeps the original cost, recharge, health, attack timing, and online synchronization.
 
 VERSION Q GROUP MODES
 - Plants vs Plants and Zombies vs Zombies no longer have a time limit. Plants win by destroying all three enemy Tall-nuts; zombies win by reaching the opposite side.
