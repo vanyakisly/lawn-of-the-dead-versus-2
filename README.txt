@@ -1,4 +1,10 @@
-The Lawn of the Dead VERSUS - v20261118R
+The Lawn of the Dead VERSUS - v20261118S
+
+VERSION S DARK GREEN WAVE MENU
+- Replaced the main menu lawn photograph with a fully opaque layered dark-green background.
+- Added softly animated contour waves and emerald/cyan lighting drawn by a lightweight canvas effect.
+- Moving the pointer bends nearby waves, adds a following glow, and leaves expanding elliptical ripples along the mouse trail; clicking creates a stronger ripple.
+- The menu effect pauses while gameplay is visible, uses no new image files, and respects the device's reduced-motion preference.
 
 VERSION R COUNTER AND PLANTING FIX
 - Fixed the sun and brain HUD counter, which retained the correct game value internally but stopped writing it to the screen in Version Q.
