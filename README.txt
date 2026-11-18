@@ -1,4 +1,27 @@
-The Lawn of the Dead VERSUS - v20261118N
+The Lawn of the Dead VERSUS - v20261118Q
+
+VERSION Q GROUP MODES
+- Plants vs Plants and Zombies vs Zombies no longer have a time limit. Plants win by destroying all three enemy Tall-nuts; zombies win by reaching the opposite side.
+- Added Garden Party for 3 or more plant players: share a garden, resources, and recharge timers while surviving increasingly large endless waves.
+- Added Zombie Siege for 3 or more zombie players: coordinate different zombie loadouts against a faster, fortified computer-controlled garden before the selected round time ends.
+- Added Last Lawn Standing for 3 or more players: the host is the lone plant defender and every joining player is on the zombie team.
+- Added a host-controlled group lobby showing the room code and live player count. Group loadout selection unlocks at 3 players, and the match begins only after everyone is ready.
+- Group rooms broadcast the authoritative game state to every directly connected player and support players disconnecting from the lobby without breaking the room.
+
+VERSION P COOLER, SMOOTHER UI
+- Added a floating animated brand emblem with a soft rotating halo and layered aurora lighting on the title screen.
+- Added subtle pointer parallax between the title and menu, with a smooth return to center when the pointer leaves.
+- Added staggered menu, picker, seed-card, and modal entrances plus richer hover, press-ripple, focus, and selection feedback.
+- Polished the corner controls and resource display with gentle glow and pulse motion.
+- Kept the Version O fast-loading system and every gameplay rule unchanged. The motion also respects reduced-motion device settings.
+
+VERSION O FAST LOADING
+- Added state-by-state priority loading: a character now downloads only the animation it is currently using instead of every idle, attack, eating, special, and death sheet at once.
+- Added instant icon/silhouette fallbacks so newly spawned plants and zombies remain visible while their first animation sheet finishes decoding.
+- The overeating sprite sheets now load only when that rare death occurs, with the next sheet prefetched during playback.
+- PeerJS and MQTT multiplayer libraries now load only when Host or Join is pressed, and the large lawn music waits for the selected character sheets before using bandwidth.
+- Changed music to streaming playback instead of asking the browser to preload the full track.
+- Sound effects now load and decode when first used instead of opening dozens of audio downloads on the title screen.
 
 VERSION N REBRAND
 - Renamed the game to The Lawn of the Dead VERSUS in the title screen, browser tab, and installable app metadata.
