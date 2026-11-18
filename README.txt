@@ -1,4 +1,17 @@
-The Lawn of the Dead VERSUS - v20261118S
+The Lawn of the Dead VERSUS - v20261118T
+
+VERSION T EXPANDED GAME MODES
+- Added Sun Shower: rapid falling sun and a stronger plant opening economy.
+- Added Hyper Battle: a two-minute match with triple income and much faster recharge timers.
+- Added Mini Mayhem: only inexpensive units are available, with faster resources and recharge.
+- Added Heavy Hitters: only high-cost plants and zombies are available, with larger starting resources and boosted income.
+- Added Random Arsenal: each side receives a locked, deterministic five-character loadout based on the room code.
+- Added One-Lane Clash: only the middle lane is playable; the other lanes are visibly shaded.
+- Added Nut Fortress: the plant side starts with a full defensive row of Wall-nuts while zombies receive extra brains.
+- Added Graveyard Rush: the lawn starts with three active Gravestones that generate brains for the zombie side.
+- Added Ten-Wave Last Stand for 3+ players: the team must defeat ten increasingly large waves with no match timer.
+- Added Creative Garden for 3+ players: no timer, no computer opponent, unlimited sun, and no plant recharge delays.
+- Organized the mode selector into Classic, Challenge, and 3+ Player sections, with explanations for every new ruleset in Help.
 
 VERSION S DARK GREEN WAVE MENU
 - Replaced the main menu lawn photograph with a fully opaque layered dark-green background.
