@@ -1,4 +1,35 @@
-The Lawn of the Dead VERSUS - v20261118T
+The Lawn of the Dead VERSUS - v20261118Y
+
+VERSION Y GARGANTUAR OBSIDIAN-ONLY EXCEPTION
+- Gargantuar's hammer deals 250 damage only to Obsidian Tall-nut.
+- Every other plant is still destroyed in one Gargantuar hit, including a normal Tall-nut.
+
+VERSION X OBSIDIAN HEALTH AND GARGANTUAR DAMAGE
+- Increased Obsidian Tall-nut from 1,800 health to 16,000 health.
+- Gargantuar's hammer smash deals exactly 250 damage to Obsidian Tall-nut. Obsidian Tall-nut survives 64 hits from full health.
+
+VERSION W CHEAT CODES AND GLOOM-SHROOM FIX
+- Added a cheat-code box to the plant and zombie loadout screen. Codes are entered before pressing Let's Rock and show immediate success or error feedback.
+- OBSIDIAN works only while choosing Plants. It secretly unlocks and selects the new Obsidian Tall-nut, which costs 300 sun, has 16,000 health, and cannot be vaulted by Pole Vaulters, Pogo Zombies, Dolphin Riders, or Ladder Zombies.
+- SUNRAIN works only for Plants and adds 1,000 starting sun. BIGBRAINS works only for Zombies and adds 1,000 starting brains. INSTANT works for either side and removes unit recharge delays.
+- Obsidian Tall-nut remains hidden from normal, restricted, random, and Sandbox rosters unless its code is activated.
+- Fixed Gloom-shroom so it attacks zombies in its own lane and both adjacent lanes at close range. The same three-lane area attack now works in Plants vs Plants modes too.
+
+VERSION V RANDOM ROUND MUSIC
+- Added the supplied Extra, Roof, Fog, Pool, and Night themes to the existing lawn theme.
+- Every new round randomly selects exactly one of the six gameplay themes.
+- The selected track is saved in the multiplayer match state so every player receives the same round theme.
+- When a theme reaches its end, it loops from the beginning. It does not switch to a different song until a new round starts.
+- The menu and seed-selection music remain unchanged, and all gameplay tracks continue to stream on demand for faster loading.
+
+VERSION U MORE MODES AND LOADOUT INFO
+- Added five online challenge modes: Sudden Death, Stockpile Showdown, Shroom Night, Pea Parade, and Turbo Zombies.
+- Sudden Death is a 90-second match with 500 starting resources and 2.5x income and recharge speed.
+- Stockpile Showdown gives both teams 1,000 resources for a three-minute battle but removes falling sun, passive brain income, sun producers, and Gravestones.
+- Shroom Night restricts Plants to mushroom units; Pea Parade restricts Plants to the Peashooter family; Turbo Zombies makes every walking zombie 60% faster without changing health or damage.
+- Added five single-player modes: Ten-Wave Survival, Random Seven-Wave Survival, Wall-nut Defense, Zombie Assault, and Pea Challenge.
+- Added a Single Player mode selector with a short description for each choice.
+- Added a Mode Info button to the plant/zombie loadout screen. It explains the selected mode's objective, timer, economy, roster restrictions, and special rules before Ready is pressed.
 
 VERSION T EXPANDED GAME MODES
 - Added Sun Shower: rapid falling sun and a stronger plant opening economy.
