@@ -1,4 +1,23 @@
-The Lawn of the Dead VERSUS - v20261118Y
+The Lawn of the Dead VERSUS - v20261118AA
+
+VERSION AA HEALTH-FREE SMOOTH UI AND SINGLE-PLAYER TOOLS
+- Removed every visible plant and zombie health display, including Obsidian Tall-nut, Gargantuar, and the unrevealed Surprise Zombie. Internal health and damage rules are unchanged.
+- Removed health numbers from loadout dossiers and in-game card tooltips.
+- Added true single-player pause. Use the new HUD button or press P; simulation and music pause cleanly while the interface remains responsive.
+- Added adjustable single-player battle speed: 0.5x, 1x, 1.5x, and 2x. Use the HUD speed button or the +, -, [ and ] keys.
+- Added optional single-player auto-collection for falling sun or brains. Toggle it from the HUD or press A.
+- Added animated status toasts, a smooth blurred pause veil, staggered HUD-card entrances, softer selection motion, fluid placement previews, smoother cooldown/progress transitions, and a resource-counter pulse.
+- The new pause, speed, and auto-collect systems are disabled in multiplayer so online timing and synchronization remain authoritative.
+
+VERSION Z GAMEPLAY POLISH PASS
+- Added a live unit dossier to the loadout screen. Hover or keyboard-focus any plant or zombie to see its cost, health, recharge, speed, and main function.
+- Added numbered 1-5 shortcut badges to selected seeds and the in-game HUD. Press 1-5 to select a unit and Q to select the shovel while playing Plants.
+- Lawn tiles now preview green for a valid placement and red for a blocked or invalid placement.
+- Added readable health bars for high-health plants and damaged units. Obsidian Tall-nut always displays its exact current HP; Gargantuar and Surprise Zombie health remain clearly visible.
+- Added visual impact feedback for Gargantuar smashes, Cob Cannon hits, explosions, Jalapeno, and other heavy attacks. The lawn shakes and flashes without affecting gameplay synchronization.
+- Added a smooth READY / SET / PLANT or ATTACK round intro.
+- Rebuilt the match-results panel with the mode, elapsed time, plants placed, and zombies deployed.
+- Preserved Obsidian Tall-nut's 16,000 health and its special 250-damage Gargantuar exception. Every other plant is still destroyed by one Gargantuar smash.
 
 VERSION Y GARGANTUAR OBSIDIAN-ONLY EXCEPTION
 - Gargantuar's hammer deals 250 damage only to Obsidian Tall-nut.
